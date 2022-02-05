@@ -1,0 +1,20 @@
+.top{
+  background-color: #F27264;
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  margin-top: 0;
+  text-align: center;
+}
+
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.logo
+{
+  height:40;
+  width:40 ;
+}
