@@ -10,6 +10,7 @@ Column,
 FooterLink,
 Heading,
 } from "./FooterStyles";
+import Button  from "../Button/Button"
 
 const initialState = {
   name: '',
@@ -47,8 +48,7 @@ export const Footer = (props) => {
     <div>
     <div  className="benefits ">
             <h1>Go ahead! Signup a demo.</h1>
-            {/* <Button></Button> */}
-            <button></button>
+            <Button/>
       </div>
 
      

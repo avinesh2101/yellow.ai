@@ -3,7 +3,7 @@ const Slider =(props)=>
 {
     return (
 
-        <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+        <div id="company" style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64,marginBottom:64 }}>
         <h1 className="heading" > <span>Curious to know more?</span></h1>    
          <h1 className="heading2">See what we can do for your industry.</h1>       
             <Carousel

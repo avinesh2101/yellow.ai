@@ -1,11 +1,11 @@
 import "./styles.css"
-import Drop from "./DropDown/Drop"
+import Button  from "./Button/Button"
 // import logo from "./image/logo.png"
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
     <h4 className="top"> #YellowMessengerCares | Fight Covid19 with a pro-bono chatbot . 
-    <button class="btn btn-light" data-mdb-ripple-color="dark">Get Free chatbot </button>
+    {/* <button class="btn btn-light" data-mdb-ripple-color="dark">Get Free chatbot </button> */}
     </h4>
       <div className='container'>
       
@@ -36,43 +36,34 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              {/* <a href='#features' className='page-scroll'>
-                Features
-              </a> */}
-              <Drop/>
-            </li>
-            <li>
-              <a href='#about' className='page-scroll'>
-              
+              <a href='#benefits' className='page-scroll'>
+                Why yellow.ai?
               </a>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
-                Services
-              </a>
-            </li>
-            <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
+              <a href='#features' className='page-scroll'>
+                Platform
               </a>
             </li>
             <li>
               <a href='#team' className='page-scroll'>
-                Team
+                Solutions
               </a>
             </li>
             <li>
-              <a href='#contact' className='page-scroll'>
-                Contact
+              <a href='#company' className='page-scroll'>
+                Company
               </a>
             </li>
             <li>
-            <a
+            {/* <a
                   href='#features'
                   className='btn btn-custom btn-lg page-scroll'
                 >
                   Learn More
-                </a>{' '}
+                </a>{' '} */}
+                {/* <button className='btn btn-custom  page-scroll'>Request a demo</button> */}
+                <Button/>
             </li>
           </ul>
         </div>
