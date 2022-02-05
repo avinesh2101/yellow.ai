@@ -26,51 +26,55 @@ export const Benefits = (props) =>{
             <div className="row" >
                 <h2 className='heading' >Reap the <span>benefits of fast, contextual and AI-enabled </span>insights interface </h2>
                 
-                <div className="space   ">
-                <div className='col-md-2 col-md-offset-2 '>
+                  <div className="space fix" style={{display: "grid",gridTemplateColumns: "1fr 1fr"  }}>
+                <div   >
                         <details>
                             <summary> 
-                                <FaCrosshairs style={{color: '#73CBF2', fontSize: '25px'}} /> 
-                                <p>Totally optimized search-to-resolution journeys to speed up your operations</p>
+                            <p><FaCrosshairs style={{color: '#73CBF2', fontSize: '25px'}} /> 
+                                Totally optimized search-to-resolution journeys to speed up your operations
                                 <FaChevronDown style={{color: 'black', fontSize: '25px'}}  className="down" />
+                                </p>
                             </summary>
-                            <p>Users can go from search to resolution within 2 clicks! Optimize the way people search for information by giving them contextually-correct resolutions, within seconds, in the first try itself.</p>
+                            <p style={{background:"#DFEDF5"}}> Users can go from search to resolution within 2 clicks! Optimize the way people search for information by giving them contextually-correct resolutions, within seconds, in the first try itself.</p>
                         </details>
-
+                        <br/>
                         <details>
-                             
                              <summary>
-                             <FaRobot style={{color: '#73CBF2', fontSize: '25px'}} />
-                             Epcot Center 
+                            <p> <FaRobot style={{color: '#73CBF2', fontSize: '25px'}} />
+                             Auto-curated relevant FAQs that improve over time as the arch system learns
                         <FaChevronDown style={{color: 'black', fontSize: '25px'}}  className="down" />
+                        </p>
                              </summary>
-                             <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                             <p style={{background:"#DFEDF5"}} >Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
                         </details>
-
+                        <br/>
                         <details>
                               <summary>
+                              <p>
                             <FaBoxes style={{color: '#73CBF2', fontSize: '25px'}} /> 
-                              Epcot Center
+                            Centralize all unstructured data, even if they exist in distant data silos author
                         <FaChevronDown style={{color: 'black', fontSize: '25px'}}  className="down" />
-
+                        </p>
                               </summary>
-                              <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                              <p style={{background:"#DFEDF5"}}>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
                         </details>
-
+                        <br/>
                         <details>
                               <summary>
-                        <FaPlayCircle style={{color: '#73CBF2', fontSize: '25px'}} />
-                              Epcot Center
-                        <FaChevronDown style={{color: 'black', fontSize: '25px'}}  className="down" />
-                              
+                              <p>
+                                <FaPlayCircle style={{color: '#73CBF2', fontSize: '25px'}} />
+                                Deploy in just a few clicks with all the pre-trained models you need we give  .
+                                <FaChevronDown style={{color: 'black', fontSize: '25px'}}  className="down" />
+                        
+                        </p>
                               </summary>
-                              <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                              <p style={{background:"#DFEDF5"}} >Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
                         </details>
                 </div>
-                <div className='col-md-3 col-md-offset-2 '>
-                    <img className="img-responsive" src={process.env.PUBLIC_URL + `/img/Rectangle.jpg`}></img>
+                <div className='col-md-6 col-md-offset-2'>
+                    <img className=" img " src={process.env.PUBLIC_URL + `/img/Rectangle.jpg`}></img>
                 </div>
-                </div>
+                </div>  
                 
             </div>
 
@@ -78,48 +82,53 @@ export const Benefits = (props) =>{
                 <h2 className="heading" ><span>Top features</span> to boost the quality and speed of contextual searches</h2>
                 <div className="space   ">
 
-                <div className='col-md-3 col-md-offset-2'>
+                <div className='col-md-3 col-md-offset-2 space'>
                 <img className="img-responsive" src={process.env.PUBLIC_URL + `/img/about.jpg`}></img>
                 </div>
 
-                <div className='col-md-5 col-md-offset-2 '>
+                <div className='col-md-5 col-md-offset-0 space2'>
                         <details>
-                            <summary> 
-                                <FaSearch style={{color: '#73CBF2', fontSize: '25px'}} /> 
-                               <p> FAQ machine, context-based searching, fine-tuned search results </p>
-                                <FaChevronDown style={{color: 'black', fontSize: '25px'}}  className="down" />
+                            <summary>  
+                               <p>
+                               <FaSearch style={{color: '#73CBF2', fontSize: '25px'}} />
+                                 FAQ machine, context -based searching , fine - tuned search results 
+                               <FaChevronDown style={{color: 'black', fontSize: '25px'}}  className="down" /> 
+                               </p>
                             </summary>
-                            <p>Successfully process queries in their natural language. The system also matches the query to the closest FAQs to give additional info. You can further fine-tune results by adding your custom tags.</p>
+                            <p style={{background:"#DFEDF5"}}>Successfully process queries in their natural language. The system also matches the query to the closest FAQs to give additional info. You can further fine-tune results by adding your custom tags.</p>
                         </details>
-
-                        <details>
-                             
+                          <br/>
+                        <details> 
                              <summary>
+                             <p>
                              <FaDatabase style={{color: '#73CBF2', fontSize: '25px'}} />
-                             <p>Auto-synced indexing of all connected databases for up-to-date responses</p>
+                             Auto-synced indexing connected databases for uptodate responses 
                             <FaChevronDown style={{color: 'black', fontSize: '25px'}}  className="down" />
-                             
+                            </p>
                              </summary>
-                             <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                             <p style={{background:"#DFEDF5"}} >Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
                         </details>
-
+                        <br/>
                         <details>
                               <summary>
+                              <p>
                             <FaArrowsAlt style={{color: '#73CBF2', fontSize: '25px'}} /> 
-                            <p>Self-learning system, plus, all analytics to help create better content</p>
+                            Self-learning system, plus, all analytics to help create better content
                             <FaChevronDown style={{color: 'black', fontSize: '25px'}} className="down" />
-                              
+                            </p>    
                               </summary>
-                              <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                              <p style={{background:"#DFEDF5"}} >Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
                         </details>
-
+                        <br/>
                         <details>
                               <summary>
+                              <p>
                                 <FaWrench style={{color: '#73CBF2', fontSize: '25px'}} />
-                                <p>Pre-trained industrial-specific models for faster go-to-market speeds</p>
+                                Pre-trained industrial-specific models for faster goto-market speeds
                                 <FaChevronDown style={{color: 'black', fontSize: '25px'}}  className="down" />
+                                </p>
                                </summary>
-                              <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                              <p style={{background:"#DFEDF5"}} >Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
                         </details>
                 </div>
                 </div>
