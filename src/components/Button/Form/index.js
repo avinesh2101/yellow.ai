@@ -37,9 +37,9 @@ export default Form;
 // import { Form, Text } from 'informed'; //https://joepuzzo.github.io/informed/
 // import React from 'react';
 
-// const SPREADSHEET_ID = '1MV7HpcImjmYn0IvUPG-PfToA6WzerPaG86NKIItNisY'; //from the URL of your blank Google Sheet
-// const CLIENT_ID = '994956393968-305rhmsr24ujcupmuhvd4m4vn27iindl.apps.googleusercontent.com'; //from https://console.developers.google.com/apis/credentials
-// const API_KEY = 'AIzaSyCtkHNIK72dcpPFL-k0nTHHv97rtyItgug'; //https://console.developers.google.com/apis/credentials
+// const SPREADSHEET_ID = ''; //from the URL of your blank Google Sheet
+// const CLIENT_ID = ''; //from https://console.developers.google.com/apis/credentials
+// const API_KEY = ''; //https://console.developers.google.com/apis/credentials
 // const SCOPE = 'https://www.googleapis.com/auth/spreadsheets';
 // var gapi=window.gapi=window.gapi||{};gapi._bs=new Date().getTime();
 // export default class ContactForm extends React.Component {
